@@ -1,0 +1,11 @@
+{
+  "@class": "SoundSample",
+  "id": {
+    "uuid": "4D2AB127-42D2-40CB-920E-EF2EC21EACC7"
+  },
+  "name": "Hurt03.wav.mp3",
+  "filePath": "Hurt03.wav.mp3",
+  "duration": 297.41497802734375,
+  "channels": 1,
+  "frequence": 44100
+}

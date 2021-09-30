@@ -1,0 +1,92 @@
+{
+  "@class": "Animation",
+  "id": {
+    "uuid": "F4447447-74CC-4EC2-80E9-651933A4870F"
+  },
+  "tracks": [
+    {
+      "@class": "Vector3BehaviorTrack",
+      "clips": [
+        {
+          "@class": "Vector3BehaviorClip",
+          "beginTime": 0,
+          "duration": 500,
+          "script": "Vector3ValueBehaviorClipScript",
+          "behavior": {
+            "@class": "Vector3BezierBehavior",
+            "frames": [
+              {
+                "@class": "Vector3BezierKeyFrame",
+                "formula": {
+                  "@class": "Vector3ExpressionFormula",
+                  "expression": "var v[3]:={0.827451,0.176471,0.176471};return[v];"
+                },
+                "time": 0,
+                "point1": {
+                  "values": [
+                    1,
+                    0
+                  ]
+                },
+                "point2": {
+                  "values": [
+                    1,
+                    0
+                  ]
+                },
+                "order": "constant",
+                "transition": true
+              },
+              {
+                "@class": "Vector3BezierKeyFrame",
+                "formula": {
+                  "@class": "Vector3ExpressionFormula",
+                  "expression": "var v[3]:={1,1,1};return[v];"
+                },
+                "time": 500,
+                "point1": {
+                  "values": [
+                    1,
+                    0
+                  ]
+                },
+                "point2": {
+                  "values": [
+                    1,
+                    0
+                  ]
+                },
+                "order": "constant",
+                "transition": true
+              },
+              {
+                "@class": "Vector3BezierKeyFrame",
+                "formula": {
+                  "@class": "Vector3ExpressionFormula",
+                  "expression": "var v[3]:={0.827451,0.176471,0.176471};return[v];"
+                },
+                "time": 200,
+                "point1": {
+                  "values": [
+                    0.6000000238418579,
+                    0.03999999910593033
+                  ]
+                },
+                "point2": {
+                  "values": [
+                    0.9800000190734863,
+                    0.35499998927116394
+                  ]
+                },
+                "order": "cubic",
+                "transition": true
+              }
+            ]
+          }
+        }
+      ],
+      "script": "Vector3BehaviorTrackScript",
+      "accessor": "ColorBlendAccessor"
+    }
+  ]
+}

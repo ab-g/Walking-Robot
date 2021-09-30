@@ -1,0 +1,13 @@
+{
+  "@class": "Animation",
+  "id": {
+    "uuid": "8CFABF14-5ABF-454A-8996-F31043C8E02F"
+  },
+  "tracks": [
+    {
+      "@class": "TimeLineTrack",
+      "script": "TimeLineTrackScript",
+      "accessor": "TimeLineAccessor"
+    }
+  ]
+}

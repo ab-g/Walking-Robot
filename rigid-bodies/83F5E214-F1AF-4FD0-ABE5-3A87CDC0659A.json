@@ -1,0 +1,25 @@
+{
+  "@class": "PhysicsBody",
+  "id": {
+    "uuid": "83F5E214-F1AF-4FD0-ABE5-3A87CDC0659A"
+  },
+  "physBodyType": "triggerVolume",
+  "physSurfaceType": "defaultSurfaceType",
+  "mass": 0.0010000000474974513,
+  "friction": 1,
+  "bounciness": 0.5,
+  "lockPositionX": false,
+  "lockPositionY": false,
+  "lockPositionZ": false,
+  "lockRotationX": false,
+  "lockRotationY": false,
+  "lockRotationZ": false,
+  "gravity": {
+    "values": [
+      0,
+      0,
+      0
+    ]
+  },
+  "useCustomGravity": false
+}

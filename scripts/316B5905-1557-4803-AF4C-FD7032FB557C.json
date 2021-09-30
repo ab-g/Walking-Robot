@@ -1,0 +1,59 @@
+{
+  "@class": "TimeLineScript",
+  "id": {
+    "uuid": "316B5905-1557-4803-AF4C-FD7032FB557C"
+  },
+  "name": "Animation",
+  "enableOnAwake": false,
+  "loop": false,
+  "jumpToFirstFrameAtEnd": false,
+  "speed": 1,
+  "weight": 1,
+  "loopStartTime": 0,
+  "loopDuration": 0,
+  "is_imported": false,
+  "type": "user",
+  "scripts": {
+    "@class": "StdListRuntimeScript",
+    "list": [
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "1B32D70D-2B03-4FBF-B0BC-D82EFB2BD065"
+        },
+        "name": "G_male_base",
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "targetId": {
+            "uuid": "35724ECC-A36E-4917-B56C-5F45AB16446C"
+          }
+        },
+        "animation": {
+          "uuid": "F4447447-74CC-4EC2-80E9-651933A4870F"
+        },
+        "AnimationType": "object3D",
+        "is_imported": false,
+        "isEnabled": true
+      },
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "C687AAAF-4637-419C-876A-B6EFF00286D3"
+        },
+        "name": "Master Sound",
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink"
+        },
+        "animation": {
+          "uuid": "189B3224-2E28-4595-9036-407E20357E9E"
+        },
+        "AnimationType": "masterSound",
+        "is_imported": false,
+        "isEnabled": true
+      }
+    ]
+  },
+  "triggers": []
+}

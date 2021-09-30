@@ -1,0 +1,163 @@
+{
+  "@class": "Animation",
+  "id": {
+    "uuid": "7CC5B202-E472-472D-834B-7ABEBEE1F52C"
+  },
+  "tracks": [
+    {
+      "@class": "FloatBehaviorTrack",
+      "clips": [
+        {
+          "@class": "FloatBehaviorClip",
+          "beginTime": 0,
+          "duration": 400,
+          "script": "FloatValueBehaviorClipScript",
+          "behavior": {
+            "@class": "FloatBezierBehavior",
+            "frames": [
+              {
+                "@class": "FloatBezierKeyFrame",
+                "formula": {
+                  "@class": "FloatExpressionFormula",
+                  "expression": "0"
+                },
+                "time": 400,
+                "point1": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "point2": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "order": "linear",
+                "transition": true
+              }
+            ]
+          }
+        }
+      ],
+      "script": "FloatBehaviorTrackScript",
+      "accessor": "PositionXBlendAccessor"
+    },
+    {
+      "@class": "FloatBehaviorTrack",
+      "clips": [
+        {
+          "@class": "FloatBehaviorClip",
+          "beginTime": 0,
+          "duration": 400,
+          "script": "FloatValueBehaviorClipScript",
+          "behavior": {
+            "@class": "FloatBezierBehavior",
+            "frames": [
+              {
+                "@class": "FloatBezierKeyFrame",
+                "formula": {
+                  "@class": "FloatExpressionFormula",
+                  "expression": "1.4"
+                },
+                "time": 400,
+                "point1": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "point2": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "order": "linear",
+                "transition": true
+              }
+            ]
+          }
+        }
+      ],
+      "script": "FloatBehaviorTrackScript",
+      "accessor": "PositionYBlendAccessor"
+    },
+    {
+      "@class": "BoolBehaviorTrack",
+      "clips": [
+        {
+          "@class": "BoolBehaviorClip",
+          "beginTime": 0,
+          "duration": 400,
+          "script": "BoolValueBehaviorClipScript",
+          "behavior": {
+            "@class": "BoolDiscreteBehavior",
+            "frames": [
+              {
+                "@class": "BoolKeyFrame",
+                "formula": {
+                  "@class": "BoolExpressionFormula",
+                  "expression": "false"
+                },
+                "time": 200
+              },
+              {
+                "@class": "BoolKeyFrame",
+                "formula": {
+                  "@class": "BoolExpressionFormula",
+                  "expression": "true"
+                },
+                "time": 400
+              }
+            ]
+          }
+        }
+      ],
+      "script": "BoolBehaviorTrackScript",
+      "accessor": "Object3DEnabledBlendAccessor"
+    },
+    {
+      "@class": "FloatBehaviorTrack",
+      "clips": [
+        {
+          "@class": "FloatBehaviorClip",
+          "beginTime": 0,
+          "duration": 200,
+          "script": "FloatValueBehaviorClipScript",
+          "behavior": {
+            "@class": "FloatBezierBehavior",
+            "frames": [
+              {
+                "@class": "FloatBezierKeyFrame",
+                "formula": {
+                  "@class": "FloatExpressionFormula",
+                  "expression": "0"
+                },
+                "time": 200,
+                "point1": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "point2": {
+                  "values": [
+                    0,
+                    0
+                  ]
+                },
+                "order": "linear",
+                "transition": true
+              }
+            ]
+          }
+        }
+      ],
+      "script": "FloatBehaviorTrackScript",
+      "accessor": "FloatVariableAccessor",
+      "attribute": "animation_playing"
+    }
+  ]
+}
